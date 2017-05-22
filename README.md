@@ -736,6 +736,7 @@ Occurs when the world accessibility is changed.
 | Id  | Type      | Name       | Description
 | --- | ----      | ----       | -----------
 | `0` | `Boolean` | Accessible | Value indicating whether the world is now accessible by other players.
+| `1` | `Boolean` | Friends    | Value indicating whether the world is now accessible by friends only.
 
 ### <a id="rm-saved">"saved"</a>
 Occurs when you saved the world.
