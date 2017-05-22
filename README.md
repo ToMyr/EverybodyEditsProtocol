@@ -146,7 +146,7 @@ ___
 # <a id="game-information">Game Information</a>
 ```
 GameID = everybody-edits-su9rn58o40itdbnw69plyw
-Version = 219
+Version = 221
 ```
 
 *NOTE: the game ID is required to log into PlayerIO to send requests.*
@@ -198,7 +198,8 @@ Occurs when someone joins the world.
 | `20` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
 | `21` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
 | `22` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
-| `23` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
+| `23` | `Integer`   | Set Staff Aura     | Set staff aura i guess?
+| `24` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
 
 > **NOTE:** This can only be received by the world owner.
 
