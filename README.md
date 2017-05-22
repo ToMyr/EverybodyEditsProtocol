@@ -99,6 +99,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [effect](#sm-effect)
   - [favorite](#sm-favorite)
   - [god](#sm-god)
+  - [godblocktouch](#sm-godblock)
   - [hologramtouch](#sm-hologramtouch)
   - [init](#sm-init)
   - [init2](#sm-init2)
