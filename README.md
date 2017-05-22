@@ -982,8 +982,8 @@ Sent to enable godmode from block
 
 | Id  | Type   | Name | Description
 | --- | ----   | ---- | -----------
-| `0` | `UInt` | X    | The x coordinate of the team block's position.
-| `1` | `UInt` | Y    | The y coordinate of the team block's position.
+| `0` | `UInt` | X    | The x coordinate of the godmode block's position.
+| `1` | `UInt` | Y    | The y coordinate of the godmode block's position.
 
 ### <a id="sm-checkpoint">"checkpoint"</a>
 Sent to change a checkpoint's position.
@@ -1336,6 +1336,7 @@ Sent to un-like the world.
 | `7`   | Low Gravity
 | `8`   | Fire
 | `9`   | Multi Jump
+| `10`  | Gravity Effect
 
 ### <a id="model-keys">Key names</a>
 
