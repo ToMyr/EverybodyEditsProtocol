@@ -976,6 +976,14 @@ Sent when a cake is touched.
 | `0` | `UInt` | X    | The x coordinate of the cake's position.
 | `1` | `UInt` | Y    | The y coordinate of the cake's position.
 
+### <a id="sm-godblock">"godblocktouch"</a>
+Sent to enable godmode from block
+
+| Id  | Type   | Name | Description
+| --- | ----   | ---- | -----------
+| `0` | `UInt` | X    | The x coordinate of the team block's position.
+| `1` | `UInt` | Y    | The y coordinate of the team block's position.
+
 ### <a id="sm-checkpoint">"checkpoint"</a>
 Sent to change a checkpoint's position.
 
