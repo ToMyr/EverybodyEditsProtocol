@@ -83,7 +83,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [write](#rm-write)
 - [Send Messages](#send-messages)
   - [access](#sm-access)
-  - [addToCrew](#sm-addToCrew)
+  - [ToCrew](#sm-addToCrew)
   - [admin](#sm-admin)
   - [aura](#sm-aura)
   - [autosay](#sm-autosay)
@@ -200,6 +200,7 @@ Occurs when someone joins the world.
 | `22` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
 | `23` | `Integer`   | Set Staff Aura     | Set staff aura i guess?
 | `24` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
+| `25` | `Boolean`   | Can Toggle Godmode | Value indicating whether the player can toggle godmode or not.
 
 > **NOTE:** This can only be received by the world owner.
 
