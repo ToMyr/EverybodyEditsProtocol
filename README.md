@@ -1292,7 +1292,7 @@ Sent to un-like the world.
 
 | Abbreviation | Name
 | ------------ | ----
-| adv          | Adventure League
+| avd          | Adventure League
 | clr          | Colorful
 | end          | Endurance
 | ffs          | Fractured Fingers
